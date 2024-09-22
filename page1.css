@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-clip{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+  object-fit: cover;
+}
+
+ .title1 h1{
+    color: white;
+  font-size: 100px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+.buton1 a{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 5px;
+  margin-left: 400px;
+transition: 0.5s all;
+padding-right: 8px;
+padding-left: 8px;
+}
+.buton1 a:hover{
+    background-color:grey;
+    color:white;
+}
+@media only screen and (max-width:321px){
+    .background-clip {
+        width: 321px;
+        object-fit: cover;
+        background: url('New\ Starfield\ Library\ Seoul\(MP4\).mp4') no-repeat center center / cover;
+     }
+     .title1{
+        margin-left: 10px;
+        transform: translateY(-10px);
+     }
+    .content .title1 h1{
+        font-size: 25px;
+     }
+      .content .buton1{
+        transform: translateY(-10px);
+        margin-left: 10px;
+
+     }
+      .content .buton1 a{
+      font-size: 16px;
+   
+     }
+    }
+
+@media only screen and (max-width:376px){
+    .title1 h1{
+    font-size: 25px;
+    margin-left: 340px;
+    transform: translateY(-10px);
+   
+    }
+    .buton1{
+        margin-right: 450px;
+        transform:translateY(-10px);
+    }
+    .buton1 a{
+       font-size: 16px;
+       padding: 3px;
+    }
+}
+@media only screen  and (min-width:377px) and (max-width:426px){
+    .title1 h1{
+        
+        font-size: 25px;
+      margin-left: 317px;
+        transform: translateY(-10px);
+        }
+        .buton1{
+      margin-right: 400px;
+            transform:translateY(-10px);
+        }
+    .buton1 a{
+       font-size: 16px;
+       padding: 5px;
+    }
+}
+@media only screen  and (min-width:427px) and (max-width:512px){
+    .title1 h1{
+        font-size: 25px;
+      transform: translateY(-10px);
+ margin-left: 320px;
+        }
+        .buton1{
+     transform: translateY(-10px);
+  margin-right: 430px;
+        }
+    .buton1 a{
+    
+       font-size: 16px;
+   padding: 3px;
+ 
+    }
+}
+@media only screen  and (min-width:513px) and (max-width:620px){
+   .content .title1 h1{
+        font-size: 25px;
+ 
+
+    margin-left: 130px;
+    inline-size: 200px;
+        }
+        .title1 h1{
+            min-width: 300px;
+        }
+       .content .buton1{
+transform: translateX(-200px);
+        }
+  .content .buton1 a{
+       font-size:16px;
+   padding: 3px;
+ 
+    } 
+}
+@media only screen  and (min-width:621px) and (max-width:768px){
+    .title1 h1{
+        font-size: 25px;
+    
+ margin-right: 10px;
+        }
+        .buton1{
+
+    margin-left: -330px;
+        }
+    .buton1 a{
+       font-size: 16px;
+   padding: 3px;
+ 
+    }
+}
+
+@media only screen  and (min-width:769px) and (max-width:1024px){
+    .title1 h1{
+     font-size: 80px;
+    margin-right: 10px;
+        }
+        .buton1{
+    margin-left: -130px;
+        }
+    .buton1 a{
+       font-size: 22px;
+   padding: 6px;
+ 
+    }
+}
+
